@@ -1,0 +1,19 @@
+{
+  "name": "zako-autocut-worker",
+  "version": "0.4.1",
+  "description": "Local FFmpeg worker for ZaKo AutoCut silence cutting.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
